@@ -1,0 +1,29 @@
+{
+  "name": "number-formatter",
+  "version": "0.1.0",
+  "description": "first module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecestanislao10/number-formatter.git"
+  },
+  "keywords": [
+    "number-formatter"
+  ],
+  "author": "Jerico Estanislao <jestanislao@stratpoint.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jecestanislao10/number-formatter/issues"
+  },
+  "homepage": "https://github.com/jecestanislao10/number-formatter#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
+}
