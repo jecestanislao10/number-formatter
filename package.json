@@ -4,7 +4,8 @@
   "description": "first module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "engines": {
     "node": ">=4.2.4"
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/jecestanislao10/number-formatter#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "istanbul": "^0.4.5",
     "mocha": "^7.0.0"
   }
 }
